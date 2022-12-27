@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#fef2f2;
+    --color:#155e75;
+    --color2: #f1f5f9;
+}
+
+body{
+    font-family: 'Space Mono', monospace;
+    margin: 0px;
+    color:var(--color);
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+.hero{
+    padding: 1rem 0rem 0rem 0rem;
+    text-align: center;
+}
+
+textarea{
+    width: 50%;
+    height: 16vh;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: larger;
+    color: var(--color);
+    background-color: var(--color2);
+}
+
+.container-center{
+    max-width: 700px;
+    margin: auto;
+}
+
+button{
+    color:var(--color);
+    background-color: var(--primary-color);
+    font-family: inherit;
+    font-size: larger;
+    padding: 1rem 1.5rem;
+    margin:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display:block;
+    text-align: center;
+}
+
+#lingo-output {
+    color:var(--color);
+    background-color: var(--color2);
+    border: 1px solid;
+    width: 50%;
+    height: 16vh;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    padding: 1rem;
+    font-size: larger;
+    overflow: scroll;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer .footer-para {
+    display:block;
+    font-size: large;
+    
+}
